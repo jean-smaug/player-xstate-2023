@@ -4,8 +4,6 @@ import Player from "./Player";
 import Fetch from "./Fetch";
 
 function App() {
-  console.log(import.meta.env.VITE_APP);
-
   return (
     <Center w="full" h="100vh" flexDir="column">
       <Heading mb="10">Projet XState</Heading>
