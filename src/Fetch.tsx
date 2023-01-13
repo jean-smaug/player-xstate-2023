@@ -5,7 +5,17 @@ const Fetch = () => {
   // Déclaration de variables
 
   // Code applicatif
-  const handleFetch = () => {};
+  const handleFetch = () => {
+    console.log("handleFetch");
+
+    // fetch("https://jsonplaceholder.typicode.com/todos/1")
+    //   .then(() => {
+    //     // OK
+    //   })
+    //   .catch(() => {
+    //     // Pas OK
+    //   });
+  };
 
   // Rendu visuel
   return (
