@@ -1,6 +1,5 @@
 import { Progress } from "@chakra-ui/react";
 import { useEffect, useRef, useState } from "react";
-import { useVideoElement } from "../utils/VideoContext";
 
 type Props = {
   onClick: (timecode: number) => void;
