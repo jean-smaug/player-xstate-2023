@@ -1,15 +1,17 @@
 import { useState } from "react";
 import { Center, Heading } from "@chakra-ui/react";
 import Player from "./Player";
+import Fetch from "./Fetch";
 
 function App() {
-  const [count, setCount] = useState(0);
+  console.log(import.meta.env.VITE_APP);
 
   return (
     <Center w="full" h="100vh" flexDir="column">
       <Heading mb="10">Projet XState</Heading>
 
-      <Player />
+      {import.meta.env.VITE_APP === "fetch" && <Fetch />}
+      {import.meta.env.VITE_APP === "player" && <Player />}
     </Center>
   );
 }
