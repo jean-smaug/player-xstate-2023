@@ -25,6 +25,10 @@
 
 <!-- slide -->
 
+## Comment représenter un état ?
+
+<!-- slide -->
+
 ## Machine à états finis
 
 - Un nombre fini d'**états**
