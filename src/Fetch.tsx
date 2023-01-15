@@ -3,11 +3,10 @@ import { Button } from "@chakra-ui/react";
 
 const Fetch = () => {
   // Déclaration de variables
+  const [isIdle, setIsIdle] = React.useState(true);
 
   // Code applicatif
   const handleFetch = () => {
-    console.log("handleFetch");
-
     // fetch("https://jsonplaceholder.typicode.com/todos/1")
     //   .then(() => {
     //     // OK
@@ -21,6 +20,7 @@ const Fetch = () => {
   return (
     <div>
       <Button>Fetch</Button>
+      {isIdle && "Inactif"}
     </div>
   );
 };
