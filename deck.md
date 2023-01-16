@@ -6,6 +6,10 @@
 
 <!-- slide -->
 
+<!-- Ajouter slide marionetiste -->
+
+<!-- slide -->
+
 ## `whoami`
 
 - Maxime Blanc
