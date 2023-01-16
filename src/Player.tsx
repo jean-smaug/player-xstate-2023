@@ -7,14 +7,18 @@ import { playerMachine } from "./player.fsm";
 
 const Player = () => {
   // Récupération de la machine à état
-  const [playerState, playerSend] = useMachine(playerMachine);
+  const [playerState, playerSend] = useMachine(playerMachine, {
+    devTools: true,
+  });
 
   // Récupération de la balise video
   const videoRef = React.useRef(null);
   const videoElement = videoRef.current;
 
   // Réactions aux changements d'états
-  React.useEffect(() => {}, [playerState]);
+  React.useEffect(() => {
+    // TODO
+  }, [playerState]);
 
   // Rendu visuel
   return (
