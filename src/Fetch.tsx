@@ -6,21 +6,20 @@ const Fetch = () => {
   const [isIdle, setIsIdle] = React.useState(true);
 
   // Code applicatif
-  const handleFetch = () => {
-    // fetch("https://jsonplaceholder.typicode.com/todos/1")
-    //   .then(() => {
-    //     // OK
-    //   })
-    //   .catch(() => {
-    //     // Pas OK
-    //   });
+  const fetchTodo = () => {
+    fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then(() => {
+        // OK
+      })
+      .catch(() => {
+        // Pas OK
+      });
   };
 
   // Rendu visuel
   return (
     <div>
       <Button>Fetch</Button>
-      {isIdle && "Inactif"}
     </div>
   );
 };
