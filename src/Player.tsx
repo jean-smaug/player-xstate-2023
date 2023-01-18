@@ -12,7 +12,7 @@ const Player = () => {
   });
 
   // Récupération de la balise video
-  const videoRef = React.useRef(null);
+  const videoRef = React.useRef<HTMLVideoElement>(null);
   const videoElement = videoRef.current;
 
   // Réactions aux changements d'états
