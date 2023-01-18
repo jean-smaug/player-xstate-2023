@@ -12,8 +12,8 @@ const Player = () => {
   });
 
   // Récupération de la balise video
-  const videoRef = React.useRef<HTMLVideoElement>(null);
-  const videoElement = videoRef.current;
+  const [videoElement, setVideoElement] =
+    React.useState<HTMLVideoElement>(null);
 
   // Réactions aux changements d'états
   React.useEffect(() => {
@@ -28,7 +28,9 @@ const Player = () => {
           height: "50vh",
         }}
         loop={false}
-        ref={videoRef}
+        ref={(videoElement) =>
+          setVideoElement(videoElement as HTMLVideoElement)
+        }
         src={video}
       ></video>
     </Box>
