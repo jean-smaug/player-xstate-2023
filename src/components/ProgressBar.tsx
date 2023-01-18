@@ -2,7 +2,7 @@ import { Progress } from "@chakra-ui/react";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {
-  onClick: (timecode: number) => void;
+  onClick?: (timecode: number) => void;
   videoElement: HTMLVideoElement;
 };
 
@@ -41,7 +41,9 @@ export const ProgressBar = ({ videoElement, onClick }: Props) => {
           const percentage = event.nativeEvent.offsetX / containerWidth;
           const newTimeCode = videoElement.duration * percentage;
 
-          onClick(newTimeCode);
+          if (onClick) {
+            onClick(newTimeCode);
+          }
         }}
         colorScheme="green"
         size="sm"
