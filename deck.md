@@ -6,7 +6,7 @@
 
 <!-- slide -->
 
-<!-- Ajouter slide marionetiste -->
+![](./docs/puppet.jpeg)
 
 <!-- slide -->
 
@@ -47,4 +47,28 @@
 
 <!-- slide -->
 
+## Le truc à retenir
+
 > n < 2<sup>n</sup>
+
+<!-- slide -->
+
+# Des questions ?
+
+Non, on n'aura pas le temps
+
+<!-- slide -->
+
+> As-tu regardé le poids d'XState sur bundlephobia ? <br /> **Un certain Antoine.C**
+
+<!-- slide -->
+
+![](./docs/xstate-bundlesize.png)
+
+<!-- slide -->
+
+## Robot3 : Les machines à états 0%MG
+
+![](./docs/robot3-bundlesize.png)
+
+<!-- slide -->
