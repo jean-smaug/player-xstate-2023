@@ -60,7 +60,7 @@ Migration **Fluxible** vers **Redux**
 
 <!-- slide -->
 
-![](./docs/schmea-communication.png)
+<img src="./docs/schmea-communication.png" height="500px" />
 
 > Démo n°2
 
