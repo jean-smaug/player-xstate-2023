@@ -2,6 +2,10 @@
 
 <!-- slide -->
 
+Migration **Fluxible** vers **Redux**
+
+<!-- slide -->
+
 ## Gestionnaires d'états
 
 <!-- slide -->
@@ -19,7 +23,7 @@
 
 # Projet XState
 
-> Se convaincre que n < 2<sup>n</sup>
+> n < 2<sup>n</sup>
 
 <!-- slide -->
 
@@ -72,3 +76,7 @@ Non, on n'aura pas le temps
 ![](./docs/robot3-bundlesize.png)
 
 <!-- slide -->
+
+## Une dernière chose : Les steps functions AWS
+
+![](./docs/step-function.png)
