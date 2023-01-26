@@ -2,6 +2,10 @@
 
 <!-- slide -->
 
+![](./docs/keskonfoula.png)
+
+<!-- slide -->
+
 Migration **Fluxible** vers **Redux**
 
 <!-- slide -->
@@ -16,13 +20,14 @@ Migration **Fluxible** vers **Redux**
 
 ## `whoami`
 
-- Maxime Blanc
-- Techlead Core TVJS
+> Maxime Blanc
+> Techlead Core TVJS
 
 <!-- slide -->
 
 # Projet XState
 
+> Retrouver le contrôle de son application grâce à la formule :
 > n < 2<sup>n</sup>
 
 <!-- slide -->
@@ -41,13 +46,15 @@ Migration **Fluxible** vers **Redux**
 
 ## Comment représenter un état ?
 
+> Démo n°1
+
 <!-- slide -->
 
 ## Machine à états finis
 
+- Un **état initial**
 - Un nombre fini d'**états**
 - Un nombre fini d'**événements**
-- Un **état initial**
 - Une fonction de transition tel que
   `STATE + EVENT => NEW STATE`
 
@@ -55,9 +62,22 @@ Migration **Fluxible** vers **Redux**
 
 ![](./docs/schmea-communication.png)
 
+> Démo n°2
+
 <!-- slide -->
 
-# Des questions ?
+## Résumé
+
+- Transition d'état suite à un événement
+- Transition d'état après une durée
+- État composé
+- État parallèle
+- Gestion des effets de bord avec **les actions**
+- Persister une valeur avec **le contexte**
+
+<!-- slide -->
+
+## Des questions ?
 
 Non, on n'aura pas le temps
 
@@ -71,7 +91,7 @@ Non, on n'aura pas le temps
 
 <!-- slide -->
 
-![](./docs/javascript-is-olive-oil-for-developers.jpg)
+<img src="./docs/javascript-is-olive-oil-for-developers.jpg" height="600px" />
 
 <!-- slide -->
 
@@ -83,4 +103,8 @@ Non, on n'aura pas le temps
 
 ## Peu importe la librairie
 
-> n < 2<sup>n</sup>
+> n < 2<sup>n</sup>, c'est déjà un début
+
+<!-- slide -->
+
+## Le choix final vous appartient
