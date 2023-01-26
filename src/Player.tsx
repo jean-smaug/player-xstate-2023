@@ -12,11 +12,12 @@ const Player = () => {
   });
 
   // Récupération de la balise video
-  const [videoElement, setVideoElement] =
-    React.useState<HTMLVideoElement>(null);
+  const [videoElement, setVideoElement] = React.useState<HTMLVideoElement>();
 
   // Réactions aux changements d'états
   React.useEffect(() => {
+    if (!videoElement) return;
+
     // TODO
   }, [playerState]);
 
