@@ -8,18 +8,21 @@ import { useEffect } from "react";
 
 interface Props {
   videoElement: HTMLVideoElement;
-  defaultValue: number;
-  onVolumeChange: (volume: number) => void;
+  defaultValue?: number;
+  onVolumeChange?: (volume: number) => void;
 }
 
 export const SoundSlider = ({
-  defaultValue,
+  defaultValue = 0,
   videoElement,
   onVolumeChange,
 }: Props) => {
   const handleVolume = (newVolume: number) => {
     videoElement.volume = newVolume / 100;
-    onVolumeChange(newVolume);
+
+    if (onVolumeChange) {
+      onVolumeChange(newVolume);
+    }
   };
 
   useEffect(() => {
