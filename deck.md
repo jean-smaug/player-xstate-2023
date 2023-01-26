@@ -27,6 +27,12 @@ Migration **Fluxible** vers **Redux**
 
 <!-- slide -->
 
+## Machine à état avec AWS : Les steps functions
+
+![](./docs/step-function.png)
+
+<!-- slide -->
+
 ## Qu'est ce qu'un état ?
 
 > L'ensemble des caractéristiques d'un système à un moment donné
@@ -51,12 +57,6 @@ Migration **Fluxible** vers **Redux**
 
 <!-- slide -->
 
-## Le truc à retenir
-
-> n < 2<sup>n</sup>
-
-<!-- slide -->
-
 # Des questions ?
 
 Non, on n'aura pas le temps
@@ -71,12 +71,16 @@ Non, on n'aura pas le temps
 
 <!-- slide -->
 
+![](./docs/javascript-is-olive-oil-for-developers.jpg)
+
+<!-- slide -->
+
 ## Robot3 : Les machines à états 0%MG
 
 ![](./docs/robot3-bundlesize.png)
 
 <!-- slide -->
 
-## Une dernière chose : Les steps functions AWS
+## Peu importe la librairie
 
-![](./docs/step-function.png)
+> n < 2<sup>n</sup>
