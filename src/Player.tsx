@@ -33,6 +33,7 @@ const Player = () => {
           setVideoElement(videoElement as HTMLVideoElement)
         }
         src={video}
+        muted
       ></video>
     </Box>
   );
