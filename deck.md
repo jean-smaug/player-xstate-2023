@@ -40,7 +40,7 @@ Migration **Fluxible** vers **Redux**
 
 ## Qu'est ce qu'un état ?
 
-> L'ensemble des caractéristiques d'un système à un moment donné
+> La combinaison de l'ensemble des caractéristiques d'un système, à un moment donné
 
 <!-- slide -->
 
