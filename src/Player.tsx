@@ -7,7 +7,7 @@ import { playerMachine } from "./player.fsm";
 
 const Player = () => {
   // Récupération de la machine à état
-  const [playerState, playerSend] = useMachine(playerMachine, {
+  const [playerState, playerSendEvent] = useMachine(playerMachine, {
     devTools: true,
   });
 
