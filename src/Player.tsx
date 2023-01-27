@@ -4,6 +4,7 @@ import { Box } from "@chakra-ui/react";
 
 import video from "./assets/pursuit-of-happiness.mp4";
 import { playerMachine } from "./player.fsm";
+import Splashscreen from "./components/Splashscreen";
 
 const Player = () => {
   // Récupération de la machine à état
