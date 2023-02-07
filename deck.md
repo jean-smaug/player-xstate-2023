@@ -20,8 +20,9 @@ Migration **Fluxible** vers **Redux**
 
 ## `whoami`
 
-> Maxime Blanc
+> **Maxime Blanc**
 > Techlead Core TVJS
+> Bedrock
 
 <!-- slide -->
 
@@ -29,12 +30,6 @@ Migration **Fluxible** vers **Redux**
 
 > Retrouver le contrôle de son application grâce à la formule :
 > n < 2<sup>n</sup>
-
-<!-- slide -->
-
-## Machine à état avec AWS : Les steps functions
-
-![](./docs/step-function.png)
 
 <!-- slide -->
 
